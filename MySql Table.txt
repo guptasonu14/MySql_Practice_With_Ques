@@ -128,3 +128,21 @@ Ans: select INSTR(first_name, 'B') from worker where first_name = 'Amitabh';
 
 INSTR(first_name,'B')
 6
+
+-- Q-6. Write an SQL query to print the FIRST_NAME from Worker table after removing white spaces from the right side.
+
+Ans: select RTRIM(first_name) from worker;
+
+RTRIM(first_name)
+Monika
+Niharika
+Vishal
+Amitabh
+Vivek
+Vipul
+Satish
+Geetika
+
+
+
+
