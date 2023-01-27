@@ -156,5 +156,13 @@ Vipul
 Satish
 Geetika
 
+-- Q-8. Write an SQL query that fetches the unique values of DEPARTMENT from Worker table and prints its length.
+
+Ans: select distinct department, LENGTH(department) from worker;
+
+department      LENGTH(department)
+HR           	2
+Admin	        5
+Account     	7
 
 
