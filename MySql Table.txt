@@ -71,4 +71,30 @@ CREATE TABLE Title(
     
      select * from title;
      
-     
+     -- Q-1. Write an SQL query to fetch “FIRST_NAME” from Worker table using the alias name as <WORKER_NAME>.
+
+Ans: select first_name AS WORKER_NAME from worker;
+
+WORKER_NAME
+Amitabh
+Geetika
+Monika
+Niharika
+Satish
+Vipul
+Vishal
+Vivek
+
+-- Q-2. Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
+
+Ans: select UPPER(first_name) from worker;
+
+UPPER(first_name)
+MONIKA
+NIHARIKA
+VISHAL
+AMITABH
+VIVEK
+VIPUL
+SATISH
+GEETIKA
