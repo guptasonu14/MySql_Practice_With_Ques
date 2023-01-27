@@ -121,3 +121,10 @@ Viv
 Vip
 Sat
 Gee
+
+-- Q-5. Write an SQL query to find the position of the alphabet (‘b’) in the first name column ‘Amitabh’ from Worker table.
+
+Ans: select INSTR(first_name, 'B') from worker where first_name = 'Amitabh';
+
+INSTR(first_name,'B')
+6
