@@ -143,6 +143,18 @@ Vipul
 Satish
 Geetika
 
+-- Q-7. Write an SQL query to print the DEPARTMENT from Worker table after removing white spaces from the left side.
+
+Ans: select LTRIM(first_name) from worker;
+LTRIM(first_name)
+Monika
+Niharika
+Vishal
+Amitabh
+Vivek
+Vipul
+Satish
+Geetika
 
 
 
