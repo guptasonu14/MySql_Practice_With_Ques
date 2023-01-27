@@ -165,4 +165,18 @@ HR           	2
 Admin	        5
 Account     	7
 
+-- Q-9. Write an SQL query to print the FIRST_NAME from Worker table after replacing ‘a’ with ‘A’.
+
+Ans: select REPLACE(first_name, 'a', 'A')  from worker;
+
+REPLACE(first_name,'a','A')
+MonikA
+NihArikA
+VishAl
+AmitAbh
+Vivek
+Vipul
+SAtish
+GeetikA
+
 
