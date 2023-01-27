@@ -11,3 +11,17 @@ Satish
 Vipul
 Vishal
 Vivek
+
+-- Q-2. Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
+
+Ans: select UPPER(first_name) from worker;
+
+UPPER(first_name)
+MONIKA
+NIHARIKA
+VISHAL
+AMITABH
+VIVEK
+VIPUL
+SATISH
+GEETIKA
