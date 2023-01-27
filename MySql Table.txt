@@ -179,4 +179,19 @@ Vipul
 SAtish
 GeetikA
 
+-- Q-10. Write an SQL query to print the FIRST_NAME and LAST_NAME from Worker table into a single column COMPLETE_NAME.
+-- A space char should separate them.
+
+Ans: select CONCAT(first_name, ' ', last_name) AS COMPLETE_NAME from worker;
+
+COMPLETE_NAME
+Monika Arora
+Niharika verma
+Vishal Singhal
+Amitabh Singh
+Vivek Bhati
+Vipul Diwan
+Satish Kumar
+Geetika Chauhan
+
 
