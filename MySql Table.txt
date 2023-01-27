@@ -98,3 +98,12 @@ VIVEK
 VIPUL
 SATISH
 GEETIKA
+
+-- Q-3. Write an SQL query to fetch unique values of DEPARTMENT from Worker table.
+
+Ans: SELECT distinct department from worker;
+
+department
+HR
+Admin
+Account
