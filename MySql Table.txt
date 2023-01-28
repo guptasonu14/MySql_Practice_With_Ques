@@ -221,7 +221,18 @@ WORKER_ID   FIRST_NAME LAST_NAME   SALARY   JOINING_DATE        DEPARTMENT
 6	        Vipul	    Diwan	   280000	2014-02-20 09:00:00	Account
 3	        Vishal	    Singhal    300000	2014-02-21 09:00:00	HR
 5	        Vivek	    Bhati	   180000	2014-02-11 09:00:00	Admin
-					
+
+-- Q-13. Write an SQL query to print details for Workers with the first name as “Vipul” and “Satish” from Worker table.
+
+Ans :  select * from worker where first_name IN ('Vipul', 'Satish');
+
+WORKER_ID   FIRST_NAME LAST_NAME   SALARY   JOINING_DATE        DEPARTMENT
+6	        Vipul	   Diwan	   280000	2014-02-20 09:00:00	Account
+7	        Satish	   Kumar	   350000	2014-02-20 09:00:00	Account
+					        
+
+   
+					   
 
 
 
