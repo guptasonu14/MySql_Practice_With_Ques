@@ -274,6 +274,14 @@ WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE         DEPARTMENT
 2	        Niharika       verma	   150000	2014-06-11 09:00:00	 Admin
 8	        Geetika	       Chauhan	   900000	2014-02-11 09:00:00	 Admin
 					
+-- Q-18. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘h’ and contains six alphabets.
+
+Ans: select * from worker where first_name LIKE '_____h';
+
+WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT 
+7	Satish	Kumar	350000	2014-02-20 09:00:00	Account
+					
+
 
 
    
