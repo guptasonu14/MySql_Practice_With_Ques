@@ -196,7 +196,7 @@ Geetika Chauhan
 
 -- Q-11. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.
 
-Ans: select * from worker ORDER by first_name;
+Ans: select first_name from worker ORDER by first_name;
 
 first_name
 Amitabh
@@ -207,6 +207,21 @@ Satish
 Vipul
 Vishal
 Vivek
+
+-- Q-12. Write an SQL query to print all Worker details from the Worker table order by 
+-- FIRST_NAME Ascending and DEPARTMENT Descending
+
+Ans: select * from worker order by first_name, department DESC;
+WORKER_ID   FIRST_NAME LAST_NAME   SALARY   JOINING_DATE        DEPARTMENT
+4	        Amitabh	    Singh	   250000	2014-02-20 09:00:00	Admin
+8	        Geetika	    Chauhan    900000	2014-02-11 09:00:00	Admin
+1	        Monika	    Arora	   100000	2014-02-20 09:00:00	HR
+2	        Niharika    verma	   150000	2014-06-11 09:00:00	Admin
+7	        Satish	    Kumar	   350000	2014-02-20 09:00:00	Account
+6	        Vipul	    Diwan	   280000	2014-02-20 09:00:00	Account
+3	        Vishal	    Singhal    300000	2014-02-21 09:00:00	HR
+5	        Vivek	    Bhati	   180000	2014-02-11 09:00:00	Admin
+					
 
 
 
