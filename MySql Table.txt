@@ -251,7 +251,20 @@ WORKER_ID   FIRST_NAME LAST_NAME   SALARY   JOINING_DATE        DEPARTMENT
 4	         Amitabh	 Singh	    250000	2014-02-20 09:00:00	Admin
 5	         Vivek	     Bhati	    180000	2014-02-11 09:00:00	Admin
 8	         Geetika	 Chauhan	900000	2014-02-11 09:00:00	Admin
+
+-- Q-16. Write an SQL query to print details of the Workers whose FIRST_NAME contains ‘a’.
+
+Ans:  select * from worker where first_name LIKE '%a%';
+
+WORKER_ID   FIRST_NAME LAST_NAME   SALARY   JOINING_DATE        DEPARTMENT        
+1	        Monika	    Arora	   100000	2014-02-20 09:00:00	HR
+2	        Niharika	verma	   150000	2014-06-11 09:00:00	Admin
+3	        Vishal	    Singhal	   300000	2014-02-21 09:00:00	HR
+4	        Amitabh	    Singh	   250000	2014-02-20 09:00:00	Admin
+7	        Satish	    Kumar	   350000	2014-02-20 09:00:00	Account    
+8	        Geetika	    Chauhan	   900000	2014-02-11 09:00:00	Admin
 					
+
 
 
    
