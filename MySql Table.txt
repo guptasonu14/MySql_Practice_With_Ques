@@ -194,4 +194,19 @@ Vipul Diwan
 Satish Kumar
 Geetika Chauhan
 
+-- Q-11. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.
+
+Ans: select * from worker ORDER by first_name;
+
+first_name
+Amitabh
+Geetika
+Monika
+Niharika
+Satish
+Vipul
+Vishal
+Vivek
+
+
 
