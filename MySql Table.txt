@@ -289,8 +289,19 @@ WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT
 4	      Amitabh	Singh	           250000	2014-02-20 09:00:00	Admin
 6	       Vipul	Diwan	           280000	2014-02-20 09:00:00	Account
 					
+-- Q-20. Write an SQL query to print details of the Workers who have joined in Feb’2014.
 
+Ans:   select * from worker where YEAR(joining_date) = 2014 AND MONTH(joining_date) = 02;
 
+WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT
+1	        Monika	        Arora	   100000	2014-02-20 09:00:00	HR
+3	        Vishal	        Singhal	   300000	2014-02-21 09:00:00	HR
+4	        Amitabh	        Singh	   250000	2014-02-20 09:00:00	Admin
+5	        Vivek	        Bhati	   180000	2014-02-11 09:00:00	Admin
+6	        Vipul	        Diwan	   280000	2014-02-20 09:00:00	Account
+7	        Satish	        Kumar	   350000	2014-02-20 09:00:00	Account
+8	        Geetika	        Chauhan	   900000	2014-02-11 09:00:00	Admin
+					
 
    
 					   
