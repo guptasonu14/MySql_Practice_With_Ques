@@ -279,7 +279,15 @@ WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE         DEPARTMENT
 Ans: select * from worker where first_name LIKE '_____h';
 
 WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT 
-7	Satish	Kumar	350000	2014-02-20 09:00:00	Account
+7	      Satish	       Kumar    350000	2014-02-20 09:00:00	Account
+					
+-- Q-19. Write an SQL query to print details of the Workers whose SALARY lies between 100000 and 500000.
+Ans:        select * from worker where salary between 200000 AND 300000;
+
+WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT 
+3	      Vishal	Singhal	           300000	2014-02-21 09:00:00	HR
+4	      Amitabh	Singh	           250000	2014-02-20 09:00:00	Admin
+6	       Vipul	Diwan	           280000	2014-02-20 09:00:00	Account
 					
 
 
