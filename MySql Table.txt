@@ -317,5 +317,15 @@ where salary between 50000 and 100000;
  concat(first_name,'',last_name)
  Monika Arora
 
+ 
+-- Q-23. Write an SQL query to fetch the no. of workers for each department in the descending order.
+
+Ans : select department, count(worker_id) AS no_of_worker from worker group by department
+ORDER BY no_of_worker desc;
+
+department   no_of_worker
+Admin    	4
+HR	        2
+Account	    2
 
 
