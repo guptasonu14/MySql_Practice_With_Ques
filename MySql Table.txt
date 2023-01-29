@@ -302,9 +302,12 @@ WORKER_ID   FIRST_NAME     LAST_NAME   SALARY   JOINING_DATE     DEPARTMENT
 7	        Satish	        Kumar	   350000	2014-02-20 09:00:00	Account
 8	        Geetika	        Chauhan	   900000	2014-02-11 09:00:00	Admin
 					
+-- Q-21. Write an SQL query to fetch the count of employees working in the department ‘Admin’.
 
-   
-					   
+Ans: select department, count(*) from worker where department = 'Admin';
+
+   department   count(*)
+	Admin      	4				   
 
 
 
