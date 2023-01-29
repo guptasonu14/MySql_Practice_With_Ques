@@ -309,5 +309,13 @@ Ans: select department, count(*) from worker where department = 'Admin';
    department   count(*)
 	Admin      	4				   
 
+-- Q-22. Write an SQL query to fetch worker full names with salaries >= 50000 and <= 100000.
+
+Ans : select concat(first_name, ' ', last_name) from worker
+where salary between 50000 and 100000;
+
+ concat(first_name,'',last_name)
+ Monika Arora
+
 
 
